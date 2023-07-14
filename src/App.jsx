@@ -2,7 +2,7 @@ import React from 'react'
 
 import { HomePage, CartPage, DetailPage, ContactPage, AboutUsPage} from './screens'
 import { Routes, Route, NavLink } from 'react-router-dom'
-import logo from './src/img/logo.png'
+import logo from '/src/img/logo.png'
 
 function App() {
 
