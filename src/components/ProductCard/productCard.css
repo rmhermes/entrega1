@@ -1,0 +1,22 @@
+
+
+.productCard{
+    max-width: 40rem;
+    display: flex;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--color-secundario);
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid var(--color-btn);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px var(--color-principal);
+}
+.card a{
+    color: var(--color-link);
+}

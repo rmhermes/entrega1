@@ -1,0 +1,31 @@
+.homePage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-principal);
+    height: auto;
+
+}
+.precioCont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.inputPrecio input{ 
+    max-width: 10rem;
+    text-align:center;
+}
+.cardsHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+input{
+    background-color: var(--color-secundario);
+}

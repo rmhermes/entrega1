@@ -1,0 +1,27 @@
+
+.contCount{
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    justify-content: center;
+    align-items: center;
+}
+.counter{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+background-color:var(--color-principal);
+padding: 10px;
+margin: 10px;
+border: 2px solid var(--color-btn);
+border-radius: 5px;
+box-shadow: 2px 2px 2px var(--color-principal);
+max-width: 200px;
+}
+
+button{
+    padding: 2px 20px;
+    border-radius: 5px;
+
+}

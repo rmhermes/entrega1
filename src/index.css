@@ -1,0 +1,49 @@
+:root{
+  --color-principal: #6bad65;
+  --color-secundario: #c1cea4;
+  --color-txt: #3b402f;
+  --color-btn: #21a355be;
+  --color-link: #0b3c1fbe;
+  
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  color: var(--color-txt);
+  font-family: 'Roboto', sans-serif;}
+a {
+  color: var(--color-link);
+}
+
+.header img{
+  max-width: 20rem;
+}
+.navBar{
+  margin: 0;
+  background-color: var(--color-secundario);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+ul{
+  display: flex;
+  justify-content: center;
+
+}
+ul a{
+  color: var(--color-txt);
+  text-decoration: none;
+  margin: 7px;
+  padding: 3px;
+  text-align: center;
+  background-color: var(--color-btn);
+  border-radius: 5px;
+}
+.navList a:hover{
+  transition: all .5s ease-out;
+  background-color: var(--color-link);
+  color: var(--color-secundario)
+}
