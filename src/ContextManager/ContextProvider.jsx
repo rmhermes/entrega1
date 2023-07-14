@@ -73,6 +73,55 @@ const ContextProvider = ({children}) => {
             stock: 10,
             descripcion: 'aca va la descripción del producto'
         },
+        {
+            nombre: 'producto 4',
+            precio: 4000,
+            id: 4,
+            stock: 10,
+            descripcion: 'aca va la descripción del producto'
+        },
+        {
+            nombre: 'producto 5',
+            precio: 5000,
+            id: 5,
+            stock: 10,
+            descripcion: 'aca va la descripción del producto'
+        },
+        {
+            nombre: 'producto 6',
+            precio: 6000,
+            id: 6,
+            stock: 10,
+            descripcion: 'aca va la descripción del producto'
+        },
+        {
+            nombre: 'producto 7',
+            precio: 7000,
+            id: 7,
+            stock: 10,
+            descripcion: 'aca va la descripción del producto'
+        },
+        {
+            nombre: 'producto 8',
+            precio: 8000,
+            id: 8,
+            stock: 10,
+            descripcion: 'aca va la descripción del producto'
+        },
+        {
+            nombre: 'producto 9',
+            precio: 9000,
+            id: 9,
+            stock: 10,
+            descripcion: 'aca va la descripción del producto'
+        },
+        {
+            nombre: 'producto 10',
+            precio: 10000,
+            id: 10,
+            stock: 10,
+            descripcion: 'aca va la descripción del producto'
+        }
     ]
 
     const getProductById = (id) => {
