@@ -2,6 +2,7 @@ import React from 'react'
 
 import { HomePage, CartPage, DetailPage, ContactPage, AboutUsPage} from './screens'
 import { Routes, Route, NavLink } from 'react-router-dom'
+import logo from './img/logo.png'
 
 function App() {
 
@@ -10,7 +11,7 @@ function App() {
     <div className='header'>
       <nav className="navBar">
         
-      <img src="./src/img/logo.png" alt="logo" />
+      <img src={logo} alt="logo" />
         <ul className='navList'>
         <NavLink to='/'>Home</NavLink> 
         <NavLink to='/cart'>Mi Carrito</NavLink>
