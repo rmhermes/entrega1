@@ -149,7 +149,7 @@ const ContextProvider = ({children}) => {
           descripcion: 'Planta colgante de interior con hojas grandes y brillantes en tonos verde y amarillo, perfecta para colgar en macetas o cestas.'
         },
         {
-          img: 'https://www.google.com/search?q=Lirio+de+la+paz&tbm=isch',
+          img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE29q0O1VFDKx3mfpHXQ8T6-a37uokN2QOyA&usqp=CAU',
           nombre: 'Lirio de la paz',
           precio: 850,
           id: 19,
