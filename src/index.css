@@ -8,12 +8,14 @@
 }
 
 *{
-  height: auto;
   margin: 0;
   padding: 0;
   color: var(--color-txt);
   font-family: 'Roboto', sans-serif;}
-a {
+body{
+  height: 100%;
+}
+  a {
   color: var(--color-link);
 }
 
@@ -48,3 +50,8 @@ ul a{
   background-color: var(--color-link);
   color: var(--color-secundario)
 }
+
+
+
+
+

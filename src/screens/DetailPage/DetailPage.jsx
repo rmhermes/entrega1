@@ -10,10 +10,12 @@ const DetailPage =()=>{
     
     return(
         <div className='detailPage'>
+            <div className='contDetail'>
+            <img src={productDetail.img} alt="" />
             <h2>{productDetail.nombre}</h2>
-            <h3>{productDetail.precio}</h3>
+            <h3>Precio: ${productDetail.precio}</h3>
             <p>Descripción: {productDetail.descripcion}</p>
-            <span>Historia: {productDetail.historia}</span>
+            <span className='spanHistoria'>Historia: {productDetail.historia}</span>
 
         { isInCart(id)
         ? 
@@ -21,6 +23,7 @@ const DetailPage =()=>{
             :
             <Counter initialValue={1} stock ={productDetail.stock} id={productDetail.id}/>
     }
+        </div>
         </div>
     )
 }

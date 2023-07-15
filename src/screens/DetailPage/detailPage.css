@@ -6,3 +6,29 @@
     align-items: center;
     background-color: var(--color-principal);
 }
+
+.contDetail{
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 35rem;
+    background-color:var(--color-secundario);
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid var(--color-btn);
+    border-radius: 15px;
+    
+    box-shadow: 2px 2px 2px var(--color-link);
+}
+.contDetail p{
+    font-size: 1.3rem;
+    margin: 10px;
+}
+.spanHistoria{
+    border-radius: 15px;
+    
+}
