@@ -9,7 +9,7 @@
     justify-content: center;
 }
 .card:hover{
-    transition: 1s;
+    transition: .7s;
     transform: scale(120%);
 }
 .card{
