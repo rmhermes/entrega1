@@ -18,7 +18,7 @@ const CartPage =()=>{
                     Total: ${getTotal()}
                 </div>
             </>
-            : <h2>No hay nada en el carrito aún</h2>
+            : <h2 className="noItems">No hay nada en el carrito aún</h2>
             }
         </div>
     )

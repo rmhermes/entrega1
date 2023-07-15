@@ -21,3 +21,7 @@
     border-radius: 5px;
     box-shadow: 2px 2px 2px var(--color-principal);
 }
+
+.noItems{
+    padding: 30px;
+}
