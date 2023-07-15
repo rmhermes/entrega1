@@ -13,6 +13,7 @@ const DetailPage =()=>{
             <h2>{productDetail.nombre}</h2>
             <h3>{productDetail.precio}</h3>
             <p>Descripción: {productDetail.descripcion}</p>
+            <span>Historia: {productDetail.historia}</span>
 
         { isInCart(id)
         ? 
