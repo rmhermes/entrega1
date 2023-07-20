@@ -12,7 +12,6 @@
     display: flex;
     align-items: center;
     margin: 0.4rem;
-    padding: .3rem;
     justify-content: center;
 }
 .buscador{
@@ -23,7 +22,7 @@
     flex-direction: row;
     gap: 4px;
     align-items: center;
-    padding: .5rem;
+
 
 
 }
