@@ -18,17 +18,16 @@ useEffect(() =>{
 
     return(
         <div className='homePage'>
-        <div>
-            <h1>Productos:</h1>
-            <input placeholder='Busca lo que deseas'  value={searchProduct} onChange={(e)=> setSearchProduct(e.target.value)}/>
-        </div>
+        <div className='homeSearch'>
+            <input className='buscador' placeholder='Busca lo que deseas'  value={searchProduct} onChange={(e)=> setSearchProduct(e.target.value)}/>
+        
         <div className='precioCont'>
-            <h2>Precio: </h2>
             <div className='inputPrecio'>
-            <input type="text" value={min} onChange={(e) => setMin(Number(e.target.value))} />
+            <input type="number" value={min} onChange={(e) => setMin(Number(e.target.value))} />
             
-            <input type="text" value={max} onChange={(e) => setMax(Number(e.target.value))} />
+            <input type="number" value={max} onChange={(e) => setMax(Number(e.target.value))} />
             </div>
+        </div>
         </div>
         <div className='cardsHome'>
             {currentProducts.length > 0 ? currentProducts.map(producto =>(

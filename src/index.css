@@ -1,9 +1,9 @@
 :root{
-  --color-principal: #6bad65;
-  --color-secundario: #c1cea4;
-  --color-txt: #3b402f;
-  --color-btn: #21a355be;
-  --color-link: #0b3c1fbe;
+  --color-principal: #397b5c;
+  --color-secundario: #e9f3ea;
+  --color-txt: #16301a;
+  --color-btn: #6ec390be;
+  --color-link: #263E34;
   
 }
 
@@ -49,6 +49,7 @@ ul a{
   transition: all .5s ease-out;
   background-color: var(--color-link);
   color: var(--color-secundario)
+
 }
 
 
