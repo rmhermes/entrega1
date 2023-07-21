@@ -11,9 +11,12 @@
   margin: 0;
   padding: 0;
   color: var(--color-txt);
-  font-family: 'Roboto', sans-serif;}
+  font-family: 'Roboto', sans-serif;
+
+}
 body{
   height: 100%;
+  
 }
   a {
   color: var(--color-link);
@@ -29,25 +32,29 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  
 }
 
 ul{
   display: flex;
   justify-content: center;
+  padding: 7px;
 
 }
 ul a{
   color: var(--color-txt);
   text-decoration: none;
-  margin: 7px;
-  padding: 3px;
+  margin: 3px;
+  padding: 2px 5px;
   text-align: center;
   background-color: var(--color-btn);
   border-radius: 5px;
+  display: flex;
+  align-items: center;
 }
 .navList a:hover{
-  transition: all .5s ease-out;
-  background-color: var(--color-link);
+  transition: all .3s ease-out;
+  background-color: var(--color-principal);
   color: var(--color-secundario)
 
 }

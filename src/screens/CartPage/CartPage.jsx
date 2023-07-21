@@ -9,14 +9,15 @@ const CartPage =()=>{
         <div className="cartPage">
             {cart.length > 0 ? 
             <>
-                <div>
+             <div className="contTotal">
+                    Total: ${getTotal()}
+                </div>
+                <div className="cardInCart">
                     {cart.map(product =>(
                         <ProductCartCard hey={product.id} producto={product}/>
                     ))}
                 </div>
-                <div className="contTotal">
-                    Total: ${getTotal()}
-                </div>
+               
             </>
             : <h2 className="noItems">No hay nada en el carrito aún</h2>
             }

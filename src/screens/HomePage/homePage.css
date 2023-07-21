@@ -5,16 +5,20 @@
     justify-content: center;
     align-items: center;
     background-color: var(--color-principal);
-
+    overflow: hidden;
 
 }
 .homeSearch{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    margin-top: 10px;
+
+
 }
 .buscador{
     padding: 10px;
+    margin: 10px;
 }
 .precioCont{
     display: flex;
@@ -23,7 +27,9 @@
 }
 input{ 
     display: flex;
-    text-align:center;
+    text-align: center;
+    border-radius: 6px;
+    background-color: var(--color-secundario);
 }
 .cardsHome{
     display: flex;
@@ -34,7 +40,3 @@ input{
     
 }
 
-input{
-    border-radius: 3px;
-    background-color: var(--color-secundario);
-}

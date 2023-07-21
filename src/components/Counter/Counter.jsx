@@ -16,11 +16,14 @@ const Counter = ({initialValue, stock, id}) =>{
         <>
                     <div className='contCount'>
             <div className='counter'>
+                <div className="counterControler">    
                 <button onClick={() => setQuantity(quantity>1 ? quantity -1 : quantity) }>-</button>
                 <span>{quantity}</span>
                 <button onClick={() => setQuantity(quantity === stock ? quantity : quantity + 1) }>+</button>
                 </div>
             <button onClick={onClickAddProduct}>Agregar al carrito</button>
+            
+            </div>
             </div>
         </>
     )

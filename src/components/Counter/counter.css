@@ -10,7 +10,8 @@
 display: flex;
 align-items: center;
 justify-content: center;
-flex-direction: row;
+flex-direction: column;
+gap: 7px;
 background-color:var(--color-principal);
 padding: 10px;
 margin: 10px;
@@ -23,5 +24,5 @@ max-width: 200px;
 button{
     padding: 2px 20px;
     border-radius: 5px;
-
+    margin: 5px 10px;
 }

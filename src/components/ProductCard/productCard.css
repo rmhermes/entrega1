@@ -12,7 +12,8 @@
     transition: .5s;
     scale: 105%;
 }
-.card{ 
+.card{
+    font-size: .8rem; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,7 +21,7 @@
     text-align: center;
     overflow: hidden;
     background-color:var(--color-secundario);
-
+    padding: 10px 5px;
     margin: 10px;
     border: 2px solid var(--color-btn);
     border-radius: 5px;
@@ -30,10 +31,10 @@
     color: var(--color-link);
     margin-bottom: 5px;
 }
-img{
-    max-height: 250px;
-
-    border-radius: 70%;
+.imgCard{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }

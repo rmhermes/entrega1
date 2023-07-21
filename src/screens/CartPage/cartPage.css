@@ -1,10 +1,17 @@
 .cartPage{
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: var(--color-principal);
+
+}
+.cardInCart{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 .contTotal{
     color: var(--color-txt);
@@ -22,6 +29,7 @@
     box-shadow: 2px 2px 2px var(--color-principal);
 }
 
+
 .noItems{
-    padding: 30px;
+    padding: 50px;
 }
