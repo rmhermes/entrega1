@@ -19,17 +19,23 @@
 .buscador{
     padding: 10px;
     margin: 10px;
-}
-.precioCont{
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    text-align: left;
+    border-radius: 6px;
+    background-color: var(--color-secundario);
 }
-input{ 
+.inputNumber{ 
     display: flex;
     text-align: center;
     border-radius: 6px;
     background-color: var(--color-secundario);
+}
+
+.precioCont{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
 }
 .cardsHome{
     display: flex;
@@ -38,5 +44,6 @@ input{
     flex-direction: row;
     flex-wrap: wrap;
     
+
 }
 

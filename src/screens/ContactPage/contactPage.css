@@ -5,4 +5,28 @@
     justify-content: center;
     align-items: center;
     background-color: var(--color-principal);
+    overflow: hidden;
+    height: 100%;
+}
+
+.inputContact{
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    border-radius: 3px;
+    background-color: var(--color-secundario);
+
+}
+.formContact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px;
+    max-width: 600px;
+}
+label{
+    margin: 3px;
+}
+textarea{
+    border-radius: 5px;
 }

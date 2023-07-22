@@ -1,13 +1,16 @@
-import React from 'react'
 
+import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { HomePage, CartPage, DetailPage, ContactPage, AboutUsPage} from './screens'
 import { Routes, Route, NavLink } from 'react-router-dom'
+
+
 import logo from '/img/logo.png'
 
 function App() {
 
   return (
-
+<>
     <div className='header'>
       <nav className="navBar">
         
@@ -28,7 +31,16 @@ function App() {
       </Routes>
       
     </div>
-  )
-}
+    <div className='footer'>
+      <footer> 
+          
+          <h5>® Todos los derechos reservados</h5>
+          
+      </footer>
+    </div>
 
-export default App
+    </>
+  )
+  }
+
+export default  App;
