@@ -23,9 +23,15 @@
     justify-content: center;
     margin: 10px;
     max-width: 600px;
+    background-color: #e9f3eaa2;
+    padding: 20px;
+    border-radius:20px 0px ;
 }
 label{
     margin: 3px;
+    color: var(--color-txt);
+    font-size: 0.9rem;
+    font-weight: 600;
 }
 textarea{
     border-radius: 5px;
