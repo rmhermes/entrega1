@@ -15,7 +15,7 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    max-width: 40%;
+    max-width: 450px;
     background-color:var(--color-secundario);
     padding: 20px;
     margin: 10px;
