@@ -20,7 +20,7 @@
 .spanAboutUs{
     display: flex;
     flex-direction: column;
-
+    margin-right: 10%;
     padding: 20px 20px;
 }
 .spanChild:hover{
