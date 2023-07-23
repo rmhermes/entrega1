@@ -76,7 +76,6 @@ ul a{
   gap: 2px;
 }
 
-
 @media screen and (max-width: 400px) {
   *{
     overflow-x: hidden;
@@ -102,7 +101,25 @@ ul a{
   max-width:300px ;
   padding: 5px;
   margin: 10px 5px;
+
 }
+.aboutUs{
+  flex-direction: column;
+}
+.aboutUsText, .aboutUsText p{
+  font-size: 12px;
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+  margin-left: 10px;
+  margin-top: 10px;
+  
+}
+.spanAboutUs{
+flex-direction: column;
+max-width: 200px;
+}
+
 .footer{
 display: flex;
 font-size: 70%;
