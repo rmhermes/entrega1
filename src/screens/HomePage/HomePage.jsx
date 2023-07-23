@@ -24,9 +24,9 @@ useEffect(() =>{
         <div className='precioCont'>
             
             <div className='inputPrecio'>
-            <input className='inputNumber' type="number" value={min} onChange={(e) => setMin(Number(e.target.value))} />
+            <input className='inputNumber' placeholder='Precio minimo' type="number"  onChange={(e) => setMin(Number(e.target.value))} />
             
-            <input className='inputNumber' type="number" value={max} onChange={(e) => setMax(Number(e.target.value))} />
+            <input className='inputNumber' placeholder='Precio máximo' type="number" onChange={(e) => setMax(Number(e.target.value))} />
             </div>
         </div>
         </div>
