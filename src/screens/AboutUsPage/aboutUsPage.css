@@ -1,9 +1,9 @@
 .aboutUs{
     display: flex;
-    justify-content: center;
+    margin: 3px;
+    display: flex;
     align-items: center;
-    align-content: center;
-    margin: 20px;
+    justify-content: center;
 }
 .aboutUsText{
     display: flex;
@@ -11,7 +11,7 @@
     align-items: left;
     margin-right: 2%;
     margin-bottom: 10%;
-    margin-left: 20px;
+    margin-left: 10%;
 }
 .aboutUsText p{
     font-size: 14px;
@@ -20,6 +20,7 @@
 .spanAboutUs{
     display: flex;
     flex-direction: column;
+
     padding: 20px 20px;
 }
 .spanChild:hover{
@@ -27,7 +28,7 @@
 }
 .asideSpanTxt{
     font-size: 12px;
-    color: ghostwhite;
+    color: var(--color-secundario);
     background-color: var(--color-principal);
     border-radius: 20px;
     display: flex;
