@@ -19,7 +19,10 @@ const CartPage =()=>{
                 </div>
                
             </>
-            : <h2 className="noItems">No hay nada en el carrito aún</h2>
+
+            : <div className="card">
+                <h3 className="noItems">No hay nada en el carrito aún</h3>
+                </div>
             }
         </div>
     )

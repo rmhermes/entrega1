@@ -10,8 +10,7 @@
 *{
   margin: 0;
   padding: 0;
-  color: var(--color-txt);
-  font-family: 'Roboto', sans-serif;
+  color: var(--color-txt);font-family: 'Exo', sans-serif;
 
 }
 body{
@@ -61,13 +60,20 @@ ul a{
 }
 
 .footer{
+  height: 80px;
   display: flex;
-  height: 100px;
   justify-content:space-evenly;
   align-items: center;
   background-color: var(--color-secundario);  
 }
-
+.spnFooter{
+  font-size: .6rem;
+}
+.hFooters{
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
 
 
 @media screen and (max-width: 400px) {
@@ -94,8 +100,13 @@ ul a{
 .formContact{
   max-width:300px ;
   padding: 5px;
-  margin: 4px 5px;
+  margin: 10px 5px;
 }
-
+.footer{
+display: flex;
+font-size: 70%;
+justify-content: center;
+align-items: center;
+}
 
 }

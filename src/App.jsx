@@ -32,11 +32,12 @@ function App() {
       
     </div>
     <div className='footer'>
-      <footer> 
+      <div className='hFooters'>
+      <h4 className='hfooter'>Ramificarte</h4>
+      <h5 className='hfooter'> - Paisajes de escritorio.</h5>
+      </div>
+          <span className='spnFooter'>® Todos los derechos reservados</span>
           
-          <h5>® Todos los derechos reservados</h5>
-          
-      </footer>
     </div>
 
     </>

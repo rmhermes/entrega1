@@ -11,7 +11,7 @@ const DetailPage =()=>{
     return(
         <div className='detailPage'>
             <div className='contDetail'>
-            <img className='imgCard' src={productDetail.img} alt="" />
+            <img className='imgCard' src={productDetail.img} alt={producto.nombre} />
             <h2>{productDetail.nombre}</h2>
             <h3>Precio: ${productDetail.precio}</h3>
             <p>Descripción: {productDetail.descripcion}</p>

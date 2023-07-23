@@ -18,11 +18,15 @@
 }
 .buscador{
     padding: 10px;
-    margin: 10px;
+    margin: 4px;
     display: flex;
     text-align: left;
     border-radius: 6px;
     background-color: var(--color-secundario);
+}
+.inputPrecio{
+    display: flex;
+    flex-direction: column;
 }
 .inputNumber{ 
     display: flex;
