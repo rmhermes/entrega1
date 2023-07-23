@@ -19,6 +19,7 @@ const DetailPage =()=>{
 
         { isInCart(id)
         ? 
+        
             <Counter initialValue = {productDetail.quantity} stock= {productDetail.stock} id= {productDetail.id}/> 
             :
             <Counter initialValue={1} stock ={productDetail.stock} id={productDetail.id}/>
