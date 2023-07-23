@@ -15,7 +15,7 @@ const ContactPage = () => {
         <label htmlFor="asunto">Asunto</label>
         <input className='inputContact' type="text" />
         <label htmlFor="mensaje">Mensaje: </label>
-        <textarea name="mensaje" cols="50" rows="10" placeholder='Ingrese su mensaje aquí..'></textarea>
+        <textarea name="mensaje" cols="35" rows="7" placeholder='Ingrese su mensaje aquí..'></textarea>
         <button>Enviar tu mensaje</button>
         </form>
     </div>

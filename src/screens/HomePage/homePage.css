@@ -21,19 +21,24 @@
     margin: 4px;
     display: flex;
     text-align: left;
+    border: none;
     border-radius: 6px;
     background-color: var(--color-secundario);
+
 }
 .inputPrecio{
     display: flex;
     width: 180px;
     flex-direction: column;
+
 }
 .inputNumber{ 
     display: flex;
     text-align: center;
     border-radius: 6px;
     background-color: var(--color-secundario);
+    border: none;
+    margin-bottom: 3px;
 }
 
 .precioCont{
