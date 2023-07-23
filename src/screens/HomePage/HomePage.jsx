@@ -22,6 +22,7 @@ useEffect(() =>{
             <input className='buscador' placeholder='Busca lo que deseas'  value={searchProduct} onChange={(e)=> setSearchProduct(e.target.value)}/>
         
         <div className='precioCont'>
+            
             <div className='inputPrecio'>
             <input className='inputNumber' type="number" value={min} onChange={(e) => setMin(Number(e.target.value))} />
             

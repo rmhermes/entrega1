@@ -37,6 +37,9 @@
     align-items: center;
     text-align: center;
 }
+.precioCont h5{
+    display: none;
+}
 .cardsHome{
     display: flex;
     justify-content: center;

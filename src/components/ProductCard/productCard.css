@@ -11,6 +11,9 @@
 .card:hover{
     transition: .5s;
     scale: 105%;
+    background-color:  #ffffffa1;
+    box-shadow: 6px 6px 2px var(--color-link);
+
 }
 .card{
     font-size: .8rem; 

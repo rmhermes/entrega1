@@ -70,10 +70,32 @@ ul a{
 
 
 
-@media (max-width: 400px) {
+@media screen and (max-width: 400px) {
+  *{
+    overflow-x: hidden;
+  }
+  .navBar a{
+    font-size: .7rem;
+  }
     .homeSearch{
       display: flex;
       flex-direction: column;
-
+      justify-content: center;
+      align-items: center;
     }
+.precioCont{
+  display: flex;
+  flex-direction: column;
+}
+
+  .card:hover{
+    box-shadow: none;
+  }
+.formContact{
+  max-width:300px ;
+  padding: 5px;
+  margin: 4px 5px;
+}
+
+
 }
