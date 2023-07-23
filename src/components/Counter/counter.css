@@ -13,12 +13,9 @@ justify-content: center;
 flex-direction: column;
 font-weight: 600;
 gap: 5px;
-background-color: var(--color-btn);
 padding: 10px;
 margin: 10px;
-border: 2px solid var(--color-btn);
 border-radius: 5px;
-box-shadow: 2px 2px 2px var(--color-principal);
 max-width: 200px;
 }
 

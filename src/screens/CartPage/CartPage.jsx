@@ -1,6 +1,6 @@
 import React from "react";
 import { useCustomContext } from "../../ContextManager/ContextProvider";
-import { ProductCard, ProductCartCard } from "../../components";
+import {ProductCartCard } from "../../components";
 import './cartPage.css'
 const CartPage =()=>{
     const {cart, getTotal} = useCustomContext()
@@ -14,14 +14,14 @@ const CartPage =()=>{
                 </div>
                 <div className="cardInCart">
                     {cart.map(product =>(
-                        <ProductCartCard hey={product.id} producto={product}/>
+                        <ProductCartCard key={product.id} producto={product}/>
                     ))}
                 </div>
                
             </>
 
-            : <div className="card">
-                <h3 className="noItems">No hay nada en el carrito aún</h3>
+            : <div className="noItems">
+                <h3 >No hay nada en el carrito aún</h3>
                 </div>
             }
         </div>

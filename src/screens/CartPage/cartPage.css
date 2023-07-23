@@ -32,5 +32,9 @@
 
 
 .noItems{
-    padding: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+
 }

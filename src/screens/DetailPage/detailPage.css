@@ -29,6 +29,10 @@
     margin: 10px;
     
 }
+.counterImg{
+    display: flex;
+    justify-content: space-between;
+}
 .spanHistoria{
     border-radius: 15px;
     

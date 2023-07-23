@@ -1,7 +1,6 @@
 
 
 .productCard{
-    max-width: 40rem;
     display: flex;
     margin: 3px;
     display: flex;
@@ -17,14 +16,16 @@
 }
 .card{
     font-size: .8rem; 
+    width: 12rem;
+    height: 20rem;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
     text-align: center;
     overflow: hidden;
     background-color:var(--color-secundario);
-    padding: 10px 5px;
+    padding: 15px 15px;
     margin: 10px;
     border: 2px solid var(--color-btn);
     border-radius: 5px;
@@ -38,13 +39,19 @@
     height: 150px;
     width: 150px;
     border-radius: 50%;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    
+    
 }
+.card h2{font-weight: 500;
 
+}
 .textCard{
     color: var(--color-txt);
     padding: 5px;
     text-align: center;
-    max-width: 18rem;
+    font-size: .7rem;
+    display: flex;
+    gap: 2px;
+    flex-direction: column;
+    text-align: left;
 }
