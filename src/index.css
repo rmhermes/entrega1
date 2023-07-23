@@ -70,3 +70,10 @@ ul a{
 
 
 
+@media (max-width: 400px) {
+    .homeSearch{
+      display: flex;
+      flex-direction: column;
+
+    }
+}
